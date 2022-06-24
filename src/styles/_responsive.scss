@@ -1,0 +1,82 @@
+// xsm
+@media screen and (min-width: 480px) {
+    .wApp {
+        padding: 1rem;
+    }
+
+    .search__icon {
+        display: none;
+    }
+
+    .search__txt {
+        display: inline-block;
+    }
+}
+
+// sm
+@media screen and (min-width: 640px) {
+    .wApp {
+        padding: 1.5rem;
+    }
+
+    .wApp__container {
+        padding: 1rem;
+    }
+
+    .wApp__weather__main {
+        flex-direction: row;
+        margin-bottom: 1.5rem;
+    }
+
+    .wApp__temperature {
+        font-size: 4.5rem;
+    }
+    
+    .wApp__inner-container {
+        margin-bottom: 0;
+        text-align: left;
+    }
+
+    .wApp__icon {
+
+        svg {
+            height: 120px;
+            width: 120px;
+        }
+    }
+
+    .wApp__secondary {
+        display: flex;
+    }
+}
+
+//md
+@media screen and (min-width: 768px) {
+    .wApp__container {
+        padding: 1.5rem;
+        width: 80%;
+    }
+}
+
+//lg
+@media screen and (min-width: 1024px) {
+    .wApp {
+        padding: 3rem;
+    }
+
+    .wApp__container {
+        width: 65%;
+    }
+}
+
+//xlg
+@media screen and (min-width: 1280px) {
+    .wApp__container {
+        width: 50%;
+    }
+}
+
+//xxlg
+@media screen and (min-width: 1920px) {
+    
+}
